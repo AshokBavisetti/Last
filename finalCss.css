@@ -1,4 +1,101 @@
-.divContainer{
-    background-color: aqua;
-    
+
+.happy-kids-image{
+    width: 500px;
+    border-radius: 10px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 30px;
+
+}
+.happy-kids-main-container{
+    display: flex;
+    flex-direction: row;
+    padding: ;
+
+}
+.text-happy-kids{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+.heading{
+    color: #876786;
+    font-weight: bold;
+    font-size: ;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 10%;  
+    display: inline-block;  
+}
+.Entertainment-text{
+    color:#e8e387 ;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.about-kids-text{
+    color: black;
+    font-size: 26px;
+    margin-left: 10%;    
+}
+.read-more-button{
+    width: 250px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #d1c823;
+    border-radius: 10px;
+    border: dashed;
+    margin: 10px;
+    margin-left: 10%;    
+}
+@media screen and (max-width:576px){
+    .happy-kids-image{
+        height:200px ;
+        width: 250px;
+    }
+    .heading{
+        font-size: 30px;
+
+    }
+    .about-kids-text{
+        font-size: 17px;
+    }
+    .read-more-button{
+        width: 150px;
+        padding: 10px;
+        font-size: 14px;
+        color: black;
+        background-color: rgb(59, 176, 215);
+        border: none;
+        margin: 5px;
+        margin-left: 5%;   
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:1023px){
+
+    .happy-kids-image{
+        height:350px ;
+        width: 300px;
+    }
+    .heading{
+        font-size: 40px;
+
+    }
+    .about-kids-text{
+        font-size: 24px;
+    }
+    .read-more-button{
+        width: 200px;
+        padding: 10px;
+        font-size: 25px;
+        color: white;
+        background-color: lightblue;
+        border: dotted;
+        margin: 5px;
+        margin-left: 5%;   
+    }
 }
