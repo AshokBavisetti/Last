@@ -1,4 +1,62 @@
-.divContainer{
-    background-color: aqua;
-    
+
+#Nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3rem 10rem;
+    z-index: 1000;
 }
+
+#Nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10rem;
+}
+
+#Nav a:hover {
+    color: hsl(198, 18%, 73%);
+}
+
+ span {
+     background-color: #79c8e8;
+     padding: 0 1rem;
+     border-radius: 5px;
+     display: inline-block;
+    
+ }
+ #btn{
+    color:white;
+background-color:yellow;
+    padding:15px 15px;
+    border-radius: 16px;
+    display: inline-block;
+
+ }
+#position {
+    background-image: url("https://mobirise.com/extensions/kidsm4/assets/images/school.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 97.5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* #span{
+    position: relative;
+    left: -400px;
+} */
+
+@media screen and (min-width: 1143px) {
+    #span {
+position: relative;
+    left: -400px;
+    }
+}
+
+
+ 
